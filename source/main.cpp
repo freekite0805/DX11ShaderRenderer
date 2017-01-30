@@ -11,7 +11,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 		return 0;
 	}
 
-	if (!renderer.SetupDevice("./bin/shader/Toy.vs.cso", "./bin/shader/Toy.ps.cso")) {
+	if (!renderer.SetupDevice("../bin/shader/Toy.vs.cso", "../bin/shader/Toy.ps.cso")) {
 		renderer.DestroyDevice();
 		return 0;
 	}
